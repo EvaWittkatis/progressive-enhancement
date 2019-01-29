@@ -1,0 +1,38 @@
+body {
+    max-width: 90%;
+    margin: auto;
+    background-image: linear-gradient(to left,rgba(108, 122, 137, 1), rgba(189, 195, 199, 1));
+    background-image: url("annie-spratt-695511-unsplash.jpg");
+    background-size: cover;
+}
+
+p {
+    font-family: 'Slabo 27px', serif;
+    line-height: 1.6;
+    font-size: 1.25em;
+    color: rgb(18, 28, 45);
+}
+
+a {
+    font-weight: bold;
+    color: rgba(145, 61, 136, 1);
+}
+a:visited { 
+    font-weight: bolder;
+    color: rgba(31, 58, 147, 1);
+}
+a:hover {
+    font-weight: bold;
+    color: rgba(41, 241, 195, 1);
+ }
+
+ blockquote {
+    margin: auto;
+    width: 50%;
+    font-size: 160%;
+    background-color: rgba(238, 238, 238, 1);
+    border-left: 3px dotted rgba(108, 122, 137, 1);
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+ }
