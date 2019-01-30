@@ -24,15 +24,109 @@ a:visited {
 a:hover {
     font-weight: bold;
     color: rgba(41, 241, 195, 1);
- }
+}
 
- blockquote {
+blockquote {
     margin: auto;
-    width: 50%;
+    width: 45%;
+
     font-size: 160%;
     background-color: rgba(238, 238, 238, 1);
     border-left: 3px dotted rgba(108, 122, 137, 1);
+
     padding-left: 30px;
     margin-top: 80px;
     margin-bottom: 80px;
- }
+}
+
+q {
+     font-style: italic;
+}
+
+.villagers {
+     border-left: solid 3px rgba(230, 126, 34, 1);
+}
+
+.farmer {
+     border-left: solid 3px rgba(38, 194, 129, 1);
+}
+
+header {
+    background-color: rgba(255, 246, 143, 0.5);
+}
+
+.Good {
+    text-transform: capitalize;
+    color: rgba(63, 195, 128, 1);
+}
+
+.Bad {
+    text-transform: capitalize;
+    color: rgba(214, 69, 65, 1);
+}
+
+tr:nth-child(even){
+    background-color: rgba(171, 183, 183, 1);
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(238, 238, 238, 1);
+}
+
+#bien {
+    margin: 0;
+    list-style: none;
+    background-image: url("bien.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20px;
+    padding: 1px 25px;
+}
+
+#mal {
+    margin: 0;
+    list-style: none;
+    background-image: url("mal.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20px;
+    padding: 1px 25px;
+}
+
+#cat {
+    margin: 0;
+    list-style: none;
+    background-image: url("chat.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20px;
+    padding: 1px 25px;
+}
+
+#first_p {
+    font-weight: bold;
+}
+
+figure {
+    float: right;
+    width: 40%;
+}
+
+img {
+    width: 450px;
+    height: 300px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.notification{
+    background:rgba(228, 241, 254, 1);
+    border:3px solid rgba(191, 191, 191, 1);
+    width:250px;
+    padding:10px 10px;
+    color: rgba(46, 49, 49, 1);
+    text-align: center;
+    font-weight:bold;
+}
